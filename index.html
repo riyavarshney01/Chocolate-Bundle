@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Bundle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bundle-container">
+        <h1>Create Your Custom Chocolate Pack</h1>
+        <div class="product-list">
+            <div class="product-item" data-name="Dark Chocolate" data-price="5.99">
+                <img src="image/dark chocolate.jpg" alt="Dark Chocolate">
+                <h3>Dark Chocolate</h3>
+                <p>Rs.5.99</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <input type="number" value="0" min="0" class="quantity-input">
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="product-item" data-name="White Chocolate" data-price="4.99">
+                <img src="image/white chocolate.jpg" alt="White Chocolate">
+                <h3>White Chocolate</h3>
+                <p>$4.99</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <input type="number" value="0" min="0" class="quantity-input">
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="product-item" data-name="Milk Chocolate" data-price="6.49">
+                <img src="image/milk chocolate.jpg" alt="Milk Chocolate">
+                <h3>Milk Chocolate</h3>
+                <p>$6.49</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <input type="number" value="0" min="0" class="quantity-input">
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bundle-summary">
+            <h2>Your Chocolate Bundle</h2>
+            <p class="summary-items"></p>
+            <p class="total-quantity">Total Items: 0/8</p>
+            <p class="total-price">Total Price: $0.00</p>
+            <button class="checkout-button" disabled>Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
